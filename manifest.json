@@ -1,0 +1,10 @@
+{
+    "manifest_version": 3,
+    "name": "2048 expectimax",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "content_scripts": [{
+      "matches": ["*://*/*2048*"],
+      "js": ["expectimax.js", "content.js"]
+    }]
+  }
