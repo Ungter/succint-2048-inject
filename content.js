@@ -5,8 +5,8 @@ let scriptRunning = false;
 let intervalId = null;
 
 const toggleButton = document.createElement("button");
-toggleButton.id = "toggle-ai";
-toggleButton.innerText = "Start AI";
+toggleButton.id = "toggle";
+toggleButton.innerText = "Start";
 toggleButton.style.position = "fixed";
 toggleButton.style.top = "10px";
 toggleButton.style.right = "10px";
